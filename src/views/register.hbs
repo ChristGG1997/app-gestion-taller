@@ -1,0 +1,44 @@
+{{#each errors}}
+    <div class="container">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{text}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+{{/each}}
+
+<div class="container">
+    <h1 class="text-center m-4">REGISTRAR TRABAJO</h1>
+
+    <div class="text-center m-auto">
+        <form action="/register" method="POST">
+            <div class="form-check">
+                <input class="form-check-input" type="radio"
+                name="codigoTrabajo" value="358ef96">
+                <label class="form-check-label" for="codigo-trabajo">
+                    Reparacion
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio"
+                name="codigoTrabajo" value="358ef64">
+                <label class="form-check-label" for="codigoTrabajo">
+                    Revision
+                </label>
+            </div>
+            <div class=" m-4">
+                <div class="form-group col-md-3 m-auto">
+                    <label for="horasReg">Horas Reglamentadas</label>
+                    <input type="number" class="form-control" name="horasReg">
+                </div>
+            </div>
+            <div class="form-group col-md-6 m-auto">
+                <label for="descripcion">Descripcion</label>
+                <textarea type="text" class="form-control" name="descripcion" rows="3"></textarea>
+            </div>
+            <button class="btn btn-success mt-4">REGISTRAR</button>
+        </form>
+    </div>
+</div>

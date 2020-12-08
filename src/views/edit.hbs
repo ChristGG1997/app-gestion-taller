@@ -1,0 +1,44 @@
+<div class="col-md-4 mt-5 mx-auto">
+    <div class="card">
+        <div class="card-header">
+            Editar Trabajos
+        </div>
+        <div class="card-body">
+            <form action="/edit-t/{{register._id}}?_method=PUT" method="POST">
+                <input type="hidden" name="_method" value="PUT">
+                <h3>Codigo del trabajo : {{register.codigoTrabajo}}</h3>
+                <div class="form-group">
+                    <label for="horasReg">Horas Reglamentados</label>
+                    <input type="number" name="horasReg" class="form-control" value="{{register.horasReg}}">
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripcion</label>
+                    <textarea type="text" class="form-control" name="descripcion">{{register.descripcion}}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="horasLab">Horas Laboradas</label>
+                    <input type="number" name="horasLab" class="form-control" value="{{register.horasLab}}">
+                </div>
+                <div class="form-group">
+                    <label for="costoPieza">Coste de Pieza</label>
+                    <input type="number" name="costoPieza" class="form-control" value="{{register.costoPieza}}">
+                </div>
+                <div class="form-group">
+                    <label for="costoPintura">Coste de Pintura</label>
+                    <input type="number" name="costoPintura" class="form-control" value="{{register.costoPintura}}">
+                </div>
+                <div class="form-group">
+                    <label for="costoRevision">Coste de Revision</label>
+                    <input type="number" name="costoRevision" class="form-control" value="{{register.costoRevision}}">
+                </div>
+                <p class="big">Costo por Reparacion Mecanica: $ {{mecanica}}</p>
+                <p class="big">Costo por Reparacion Lotonereia: $ {{pintura}}</p>
+                <p class="big">Costo por Revision: $ {{revision}}</p>
+                <button class="btn btn-success mt-4 btn-block">Actualizar</button>
+            </form>
+            <form action="/edit-t/{{register._id}}" method="POST">
+                <button class="btn btn-info mt-1 btn-block">Cotizar</button>
+            </form>
+        </div>
+    </div>
+</div>
