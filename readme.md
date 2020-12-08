@@ -12,7 +12,9 @@ MongoDB v3.6.3+
 
 Para ejecutar el proyecto:
 
-
+- bajar el proyecto de git: https://github.com/ChristGG1997/app-gestion-taller
+- Inicia mongoDB
 - npm install
 - npm run dev
+- ir al navegador : localhost:3000/
 
