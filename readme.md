@@ -1,4 +1,4 @@
-Parcial final de programcion 2
+APP Gestion de Taller
 
 Proyecto realizado por:
 Christian Enrique Iglesias Escorcia,
