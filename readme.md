@@ -2,7 +2,7 @@ Parcial final de programcion 2
 
 Proyecto realizado por:
 Christian Enrique Iglesias Escorcia
-Sebastian Gutierrez Barreneche
+-
 Arlex Samir Lizarazo Pimienta
 
 
