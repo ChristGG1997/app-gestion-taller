@@ -4,7 +4,7 @@ Stock donde pueden acceder usuarios creados y asignados por el admin para tener 
 
 ## Comenzando 🚀
 
-localhost:7000/
+localhost:3000/
 
 ### Pre-requisitos 📋
 
