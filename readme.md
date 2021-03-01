@@ -1,8 +1,7 @@
 APP Gestion de Taller
 
 Proyecto realizado por:
-Christian Enrique Iglesias Escorcia,
-Arlex Samir Lizarazo Pimienta
+Christian Enrique Iglesias Escorcia
 
 
 Se requiere tener:
